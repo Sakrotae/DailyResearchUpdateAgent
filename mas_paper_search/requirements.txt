@@ -1,0 +1,20 @@
+# Core LLM and Agent Libraries
+openai
+# arxiv for paper searching
+arxiv
+# chromadb for vector storage and long-term memory
+chromadb
+# PyMuPDF for PDF text extraction
+PyMuPDF
+# FastAPI for potential future API/UI - install with uvicorn
+fastapi
+uvicorn[standard]
+# Pydantic for data validation and settings management (often used with FastAPI)
+pydantic
+pydantic-settings
+# For environment variables
+python-dotenv
+# For http requests (used by arxiv and openai libraries, good to have explicitly)
+httpx
+# Tokenizer for OpenAI embeddings, often used by ChromaDB
+tiktoken
